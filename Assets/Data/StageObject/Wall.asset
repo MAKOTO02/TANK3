@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b23b5a85b5e410d4f8830f82d7719edb, type: 3}
+  m_Name: Wall
+  m_EditorClassIdentifier: 
+  guid: 17afb394-7963-41ab-a2e9-2db9b76e9c21
+  objectName: Wall
+  GameObjectPrefab: {fileID: 7629015286566989560, guid: df3b13c960c7b3b40a7ccb0f31fd9dd5,
+    type: 3}
+  isDestructible: 0

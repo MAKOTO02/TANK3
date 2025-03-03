@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b23b5a85b5e410d4f8830f82d7719edb, type: 3}
+  m_Name: Destructible
+  m_EditorClassIdentifier: 
+  guid: ec0cd632-bcfd-4b2d-9b45-7bf0255ab8f3
+  objectName: Destructible
+  GameObjectPrefab: {fileID: 1867850439730017739, guid: f7fcfeec77a9a8147a04fa2d0c45be78,
+    type: 3}
+  isDestructible: 1

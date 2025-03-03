@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41b66582c0e1e1846bba156ecc84743f, type: 3}
+  m_Name: CannonDataStore
+  m_EditorClassIdentifier: 
+  dataList:
+  - guid: 1c7b7b09-6ed5-4b51-b196-2b33238abe96
+    turnType: 0
+    CannonTurnSpeed: 200
+  - guid: a55b1c84-b230-42e9-a3cd-3e78e3200659
+    turnType: 1
+    CannonTurnSpeed: 3
+  - guid: 4faab7d6-f140-4300-8b0d-5814f5d30691
+    turnType: 2
+    CannonTurnSpeed: 1.5

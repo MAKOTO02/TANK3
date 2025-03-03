@@ -1,0 +1,199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3154361926856088148
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8906490786628507293}
+  - component: {fileID: 1390127130738791877}
+  m_Layer: 0
+  m_Name: UIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8906490786628507293
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3154361926856088148}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -32.32583, y: 12.404778, z: 26.924541}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1390127130738791877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3154361926856088148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1c6252e16179ec4f92e1e83be2b0f86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newFontAsset: {fileID: 11400000, guid: d1f32609b82df664284dc05592f12fb4, type: 2}
+  messagePanelSprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  uiElements:
+  - state: 0
+    uiObject: {fileID: 4030411566405307776, guid: f1a91f40870b361458e01b71e0e56d57,
+      type: 3}
+    onActivate:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1566450551107724074, guid: f1a91f40870b361458e01b71e0e56d57,
+            type: 3}
+          m_TargetAssemblyTypeName: TitleScreenUI, Assembly-CSharp
+          m_MethodName: OnScreenTitle
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - state: 1
+    uiObject: {fileID: 53201336931943131, guid: bd186ed921922a74c89ebdcdfc023704,
+      type: 3}
+    onActivate:
+      m_PersistentCalls:
+        m_Calls: []
+  - state: 10
+    uiObject: {fileID: 5130056519477317292, guid: bd8aace545b6ace4a99f512a9869c2d4,
+      type: 3}
+    onActivate:
+      m_PersistentCalls:
+        m_Calls: []
+  - state: 11
+    uiObject: {fileID: 1153400908511033614, guid: 458ce8f5fe3360341b4b6c82dd474faf,
+      type: 3}
+    onActivate:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 7064249892030059177, guid: 458ce8f5fe3360341b4b6c82dd474faf,
+            type: 3}
+          m_TargetAssemblyTypeName: TANK3.UI.SaveDataSelectMenuUI, Assembly-CSharp
+          m_MethodName: OnSaveSelectMenu
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - state: 2
+    uiObject: {fileID: 2733414174583139095, guid: 38d30f4bd5575754aa1151665d4d0932,
+      type: 3}
+    onActivate:
+      m_PersistentCalls:
+        m_Calls: []
+  - state: 3
+    uiObject: {fileID: 4274180989563486501, guid: 2abd4303fcd58ef43a8801d9b7270b61,
+      type: 3}
+    onActivate:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1449821793272233538, guid: 2abd4303fcd58ef43a8801d9b7270b61,
+            type: 3}
+          m_TargetAssemblyTypeName: LoadingScreenUI, Assembly-CSharp
+          m_MethodName: OnLoadingScreen
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - state: 12
+    uiObject: {fileID: 6009161432152281947, guid: a865ff84ae5760d40be276ee46d14cbd,
+      type: 3}
+    onActivate:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 6408845599278911657, guid: a865ff84ae5760d40be276ee46d14cbd,
+            type: 3}
+          m_TargetAssemblyTypeName: TANK3.UI.Presenter.StageSelectMenuPresenter,
+            Assembly-CSharp
+          m_MethodName: OnStageSelectMenu
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - state: 7
+    uiObject: {fileID: 7968575974715450641, guid: be874d8ff68b9cb489fa7b679ad34adb,
+      type: 3}
+    onActivate:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5875491871853969140, guid: be874d8ff68b9cb489fa7b679ad34adb,
+            type: 3}
+          m_TargetAssemblyTypeName: PauseMenuUI, Assembly-CSharp
+          m_MethodName: OnPauseMenu
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - state: 5
+    uiObject: {fileID: 7576848559517967120, guid: bf54e07587301444a96f3fd0b7166369,
+      type: 3}
+    onActivate:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: TANK3.Manager.UI.UIManager, Assembly-CSharp
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - state: 9
+    uiObject: {fileID: 7113641465618574425, guid: 5af14dbc7bf77154bae5d6c6d8d2900f,
+      type: 3}
+    onActivate:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1390127130738791877}
+          m_TargetAssemblyTypeName: TANK3.Manager.UI.UIManager, Assembly-CSharp
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2

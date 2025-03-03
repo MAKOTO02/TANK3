@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ef93160ca9c1d2448217a203e90b0fe, type: 3}
+  m_Name: BulletDataStore
+  m_EditorClassIdentifier: 
+  dataList:
+  - guid: fcb90270-a8d0-45cf-9f56-408dda74d7c6
+    BulletType: DEFAULT_LINEAR
+    Trajectory: 0
+    limit: 5
+    bulletSpeed: 22
+    durationTimes: 2
+    bulletScale: 2
+  - guid: cb09ae94-f829-4712-b639-0f6104894b38
+    BulletType: FAST_LINEAR
+    Trajectory: 0
+    limit: 2
+    bulletSpeed: 25
+    durationTimes: 0
+    bulletScale: 1.5
+  - guid: edbcf44a-3042-4510-83a7-0a33a2aca0d2
+    BulletType: SLOW_LINEAR
+    Trajectory: 0
+    limit: 8
+    bulletSpeed: 15
+    durationTimes: 5
+    bulletScale: 3
+  - guid: dd250af9-556d-4a7d-a2c4-1febfe0480e4
+    BulletType: DEFAULT_PARABORA
+    Trajectory: 1
+    limit: 2
+    bulletSpeed: 20
+    durationTimes: 1
+    bulletScale: 3
